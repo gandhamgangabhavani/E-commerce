@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-  <BrowserRouter>
+  <BrowserRouter basename='/E-commerce'>
     <NavBar cart={cart}/>
     <Routes>
      
